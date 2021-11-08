@@ -1,0 +1,39 @@
+.answer {
+  position: relative;
+  margin: 5px;
+  display: inline-block;
+  max-width: 70%;
+  width: auto;
+  padding: 10px;
+  opacity: 0;
+  border-radius: 0px 15px 15px 15px;
+  background-color: white;
+  animation: fade 0.5s ease-in-out forwards;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.answer p {
+  margin: 0;
+}
+.answer img {
+  width: 100%;
+  height: auto;
+}
+.answer.question-message {
+  margin-left: auto;
+  clear: both;
+  color: black;
+  border-radius: 15px 0px 15px 15px;
+  background-color: #dcf8c6;
+}
+.answer iframe {
+  width: 100%;
+  height: auto;
+  border: 0;
+}

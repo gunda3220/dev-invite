@@ -1,0 +1,14 @@
+.question {
+  display: flex;
+  width: 48%;
+  margin: 10px auto;
+  background-color: #3148b6;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.question p {
+  margin: 0;
+}
